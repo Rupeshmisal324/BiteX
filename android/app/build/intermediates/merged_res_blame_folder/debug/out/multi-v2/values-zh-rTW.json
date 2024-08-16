@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.cyptocurrency.app-mergeDebugResources-36:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.cyptocurrency.app-mergeDebugResources-34:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\06afc51d4c732095d1f7af57feb29a81\\transformed\\jetified-play-services-basement-18.3.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\c944f37f5aed40dae2553d5f44edb21d\\transformed\\jetified-play-services-basement-18.2.0\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\316b47ba97064b8996d617330ed91d18\\transformed\\jetified-play-services-base-18.3.0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\99b3d270508affcc1cbbd84ef16eb756\\transformed\\jetified-play-services-base-18.0.1\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

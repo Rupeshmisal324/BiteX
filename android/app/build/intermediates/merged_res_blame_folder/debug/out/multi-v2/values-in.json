@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cyptocurrency.app-mergeDebugResources-36:/values-in/values-in.xml",
+            "outputFile": "com.cyptocurrency.app-mergeDebugResources-34:/values-in/values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\452ffdcf9637ac22e3426671d55dd6fb\\transformed\\material-1.6.1\\res\\values-in\\values-in.xml",
@@ -23,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\316b47ba97064b8996d617330ed91d18\\transformed\\jetified-play-services-base-18.3.0\\res\\values-in\\values.xml",
+                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\c944f37f5aed40dae2553d5f44edb21d\\transformed\\jetified-play-services-basement-18.2.0\\res\\values-in\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4368",
+                        "endColumns": "131",
+                        "endOffsets": "4495"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\99b3d270508affcc1cbbd84ef16eb756\\transformed\\jetified-play-services-base-18.0.1\\res\\values-in\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -54,23 +71,6 @@
                         "startOffsets": "9555",
                         "endColumns": "100",
                         "endOffsets": "9651"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\06afc51d4c732095d1f7af57feb29a81\\transformed\\jetified-play-services-basement-18.3.0\\res\\values-in\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "127",
-                        "endOffsets": "322"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4368",
-                        "endColumns": "131",
-                        "endOffsets": "4495"
                     }
                 },
                 {

@@ -15,10 +15,6 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/netinfo
 import com.reactnativecommunity.netinfo.NetInfoPackage;
-// @react-native-firebase/app
-import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
-// @react-native-firebase/messaging
-import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 // @react-native-google-signin/google-signin
 import com.reactnativegooglesignin.RNGoogleSigninPackage;
 // react-native-charts-wrapper
@@ -86,8 +82,6 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new NetInfoPackage(),
-      new ReactNativeFirebaseAppPackage(),
-      new ReactNativeFirebaseMessagingPackage(),
       new RNGoogleSigninPackage(),
       new MPAndroidChartPackage(),
       new RNCConfigPackage(),

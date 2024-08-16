@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.cyptocurrency.app-mergeDebugResources-36:/values-lt/values-lt.xml",
+            "outputFile": "com.cyptocurrency.app-mergeDebugResources-34:/values-lt/values-lt.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\316b47ba97064b8996d617330ed91d18\\transformed\\jetified-play-services-base-18.3.0\\res\\values-lt\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,296,444,572,675,824,950,1065,1167,1329,1434,1595,1725,1874,2020,2084,2146",
-                        "endColumns": "102,147,127,102,148,125,114,101,161,104,160,129,148,145,63,61,85",
-                        "endOffsets": "295,443,571,674,823,949,1064,1166,1328,1433,1594,1724,1873,2019,2083,2145,2231"
-                    },
-                    "to": {
-                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3688,3795,3947,4079,4186,4339,4469,4588,4853,5019,5128,5293,5427,5580,5730,5798,5864",
-                        "endColumns": "106,151,131,106,152,129,118,105,165,108,164,133,152,149,67,65,89",
-                        "endOffsets": "3790,3942,4074,4181,4334,4464,4583,4689,5014,5123,5288,5422,5575,5725,5793,5859,5949"
-                    }
-                },
                 {
                     "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\346f569ba9d365042b456e7e69a1a638\\transformed\\appcompat-1.6.1\\res\\values-lt\\values-lt.xml",
                     "from": {
@@ -35,6 +18,23 @@
                         "startOffsets": "380,496,600,713,800,902,1024,1107,1187,1281,1377,1474,1570,1673,1769,1867,1963,2057,2151,2234,2343,2451,2551,2661,2766,2872,3048,10876",
                         "endColumns": "115,103,112,86,101,121,82,79,93,95,96,95,102,95,97,95,93,93,82,108,107,99,109,104,105,175,100,83",
                         "endOffsets": "491,595,708,795,897,1019,1102,1182,1276,1372,1469,1565,1668,1764,1862,1958,2052,2146,2229,2338,2446,2546,2656,2761,2867,3043,3144,10955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\99b3d270508affcc1cbbd84ef16eb756\\transformed\\jetified-play-services-base-18.0.1\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,296,444,572,675,824,950,1065,1167,1329,1434,1595,1725,1874,2020,2084,2146",
+                        "endColumns": "102,147,127,102,148,125,114,101,161,104,160,129,148,145,63,61,85",
+                        "endOffsets": "295,443,571,674,823,949,1064,1166,1328,1433,1594,1724,1873,2019,2083,2145,2231"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3688,3795,3947,4079,4186,4339,4469,4588,4853,5019,5128,5293,5427,5580,5730,5798,5864",
+                        "endColumns": "106,151,131,106,152,129,118,105,165,108,164,133,152,149,67,65,89",
+                        "endOffsets": "3790,3942,4074,4181,4334,4464,4583,4689,5014,5123,5288,5422,5575,5725,5793,5859,5949"
                     }
                 },
                 {
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\06afc51d4c732095d1f7af57feb29a81\\transformed\\jetified-play-services-basement-18.3.0\\res\\values-lt\\values.xml",
+                    "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\c944f37f5aed40dae2553d5f44edb21d\\transformed\\jetified-play-services-basement-18.2.0\\res\\values-lt\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

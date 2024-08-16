@@ -9,378 +9,153 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:3:5-67
-11-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:3:22-64
+11-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
-12-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
+12-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\BiteX\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+12-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\BiteX\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-76
-13-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-73
-14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-68
-14-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-65
-15    <!--
-16    This manifest file is used only by Gradle to configure debug-only capabilities
-17    for React Native Apps.
-18    -->
-19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-19-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:5-78
-19-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:22-75
-20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-20-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:23:5-77
-20-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:23:22-74
-21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:26:5-82
-21-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:26:22-79
-22
-23    <permission
-23-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-24        android:name="com.cyptocurrency.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-26
-27    <uses-permission android:name="com.cyptocurrency.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-28
-29    <application
-29-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:5:5-24:19
-30        android:name="com.cyptocurrency.MainApplication"
-30-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:6:7-38
-31        android:allowBackup="false"
-31-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:10:7-34
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-33        android:debuggable="true"
-34        android:extractNativeLibs="false"
-35        android:icon="@mipmap/ic_launcher"
-35-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:8:7-41
-36        android:label="@string/app_name"
-36-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:7:7-39
-37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:9:7-52
-38        android:theme="@style/AppTheme"
-38-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:11:7-38
-39        android:usesCleartextTraffic="true" >
-39-->D:\React Native\CryptoCurrency\android\app\src\debug\AndroidManifest.xml:6:9-44
-40        <activity
-40-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:12:7-23:18
-41            android:name="com.cyptocurrency.MainActivity"
-41-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:13:9-37
-42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-42-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:15:9-118
-43            android:exported="true"
-43-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:18:9-32
-44            android:label="@string/app_name"
-44-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:14:9-41
-45            android:launchMode="singleTask"
-45-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:16:9-40
-46            android:windowSoftInputMode="adjustResize" >
-46-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:17:9-51
-47            <intent-filter>
-47-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:19:9-22:25
-48                <action android:name="android.intent.action.MAIN" />
-48-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:20:13-65
-48-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:20:21-62
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:21:13-73
-50-->D:\React Native\CryptoCurrency\android\app\src\main\AndroidManifest.xml:21:23-70
-51            </intent-filter>
-52        </activity>
-53
-54        <service
-54-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:40
-55            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-55-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-103
-56            android:exported="false" />
-56-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
-57        <service
-57-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:19
-58            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-58-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-95
-59            android:exported="false" >
-59-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
-60            <intent-filter>
-60-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:29
-61                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-61-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-78
-61-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:25-75
-62            </intent-filter>
-63        </service>
-64
-65        <receiver
-65-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-30:20
-66            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-66-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-96
-67            android:exported="true"
-67-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
-68            android:permission="com.google.android.c2dm.permission.SEND" >
-68-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-73
-69            <intent-filter>
-69-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:29
-70                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-70-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-81
-70-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-78
-71            </intent-filter>
-72        </receiver>
-73
-74        <meta-data
-74-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-34:36
-75            android:name="firebase_messaging_auto_init_enabled"
-75-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-64
-76            android:value="true" />
-76-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-33
-77        <meta-data
-77-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:32
-78            android:name="com.google.firebase.messaging.default_notification_channel_id"
-78-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-89
-79            android:value="" />
-79-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-29
-80        <meta-data
-80-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:47
-81            android:name="com.google.firebase.messaging.default_notification_color"
-81-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-84
-82            android:resource="@color/white" />
-82-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-44
-83        <meta-data
-83-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:36
-84            android:name="app_data_collection_default_enabled"
-84-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-63
-85            android:value="true" />
-85-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-33
-86
-87        <service
-87-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:19
-88            android:name="com.google.firebase.components.ComponentDiscoveryService"
-88-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-84
-89            android:directBootAware="true"
-89-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-43
-90            android:exported="false" >
-90-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
-91            <meta-data
-91-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:85
-92                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-92-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-120
-93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-82
-94            <meta-data
-94-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
-95                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-95-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
-96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
-97            <meta-data
-97-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
-98                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-98-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
-99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
-100            <meta-data
-100-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\intel\.gradle\caches\transforms-4\a07b1adc02e5d59204c2a2c0c8932384\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-101                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-101-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\intel\.gradle\caches\transforms-4\a07b1adc02e5d59204c2a2c0c8932384\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
-102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\intel\.gradle\caches\transforms-4\a07b1adc02e5d59204c2a2c0c8932384\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
-103            <meta-data
-103-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\intel\.gradle\caches\transforms-4\a07b1adc02e5d59204c2a2c0c8932384\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-104                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-104-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\intel\.gradle\caches\transforms-4\a07b1adc02e5d59204c2a2c0c8932384\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
-105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\intel\.gradle\caches\transforms-4\a07b1adc02e5d59204c2a2c0c8932384\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
-106            <meta-data
-106-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\b075b4f697ba5f122eac219eb35e856a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-107                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-107-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\b075b4f697ba5f122eac219eb35e856a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\b075b4f697ba5f122eac219eb35e856a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-109            <meta-data
-109-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-110                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-110-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-112            <meta-data
-112-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\intel\.gradle\caches\transforms-4\0d9a77537c5d68856cb7a7b0dfe3e2c7\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
-113                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-113-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\intel\.gradle\caches\transforms-4\0d9a77537c5d68856cb7a7b0dfe3e2c7\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
-114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\intel\.gradle\caches\transforms-4\0d9a77537c5d68856cb7a7b0dfe3e2c7\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
-115        </service>
-116
-117        <provider
-117-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-27:38
-118            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-118-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-88
-119            android:authorities="com.cyptocurrency.reactnativefirebaseappinitprovider"
-119-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-86
-120            android:exported="false"
-120-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
-121            android:initOrder="99" />
-121-->[:react-native-firebase_app] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-35
-122
-123        <activity
-123-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:19:9-21:40
-124            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-124-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:20:13-77
-125            android:exported="false" />
-125-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:21:13-37
-126        <activity
-126-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:23:9-27:75
-127            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-127-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:24:13-93
-128            android:excludeFromRecents="true"
-128-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:25:13-46
-129            android:exported="false"
-129-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:26:13-37
-130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-130-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:27:13-72
-131        <!--
-132            Service handling Google Sign-In user revocation. For apps that do not integrate with
-133            Google Sign-In, this service will never be started.
-134        -->
-135        <service
-135-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:33:9-37:51
-136            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-136-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:34:13-89
-137            android:exported="true"
-137-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:35:13-36
-138            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-138-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:36:13-107
-139            android:visibleToInstantApps="true" />
-139-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\intel\.gradle\caches\transforms-4\9b34e365526dc66711f07da2c3097316\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:37:13-48
-140
-141        <receiver
-141-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:29:9-40:20
-142            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-142-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:30:13-78
-143            android:exported="true"
-143-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:31:13-36
-144            android:permission="com.google.android.c2dm.permission.SEND" >
-144-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:32:13-73
-145            <intent-filter>
-145-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:29
-146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-146-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-81
-146-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-78
-147            </intent-filter>
-148
-149            <meta-data
-149-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:37:13-39:40
-150                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-150-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:38:17-92
-151                android:value="true" />
-151-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
-152        </receiver>
-153        <!--
-154             FirebaseMessagingService performs security checks at runtime,
-155             but set to not exported to explicitly avoid allowing another app to call it.
-156        -->
-157        <service
-157-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:46:9-53:19
-158            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-158-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
-159            android:directBootAware="true"
-159-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
-160            android:exported="false" >
-160-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\intel\.gradle\caches\transforms-4\5b1a69571b3e50713debc7148f75afb8\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
-161            <intent-filter android:priority="-500" >
-161-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:29
-162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-162-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-78
-162-->[:react-native-firebase_messaging] D:\React Native\CryptoCurrency\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:25-75
-163            </intent-filter>
-164        </service>
-165
-166        <activity
-166-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\316b47ba97064b8996d617330ed91d18\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
-167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-167-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\316b47ba97064b8996d617330ed91d18\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
-168            android:exported="false"
-168-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\316b47ba97064b8996d617330ed91d18\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
-169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-169-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\316b47ba97064b8996d617330ed91d18\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
-170
-171        <provider
-171-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-172            android:name="com.google.firebase.provider.FirebaseInitProvider"
-172-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-173            android:authorities="com.cyptocurrency.firebaseinitprovider"
-173-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-174            android:directBootAware="true"
-174-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-175            android:exported="false"
-175-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-176            android:initOrder="100" />
-176-->[com.google.firebase:firebase-common:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\7fb725fec1e5a7db858c2eb3631ccaef\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-177
-178        <meta-data
-178-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\06afc51d4c732095d1f7af57feb29a81\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-179            android:name="com.google.android.gms.version"
-179-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\06afc51d4c732095d1f7af57feb29a81\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
-180            android:value="@integer/google_play_services_version" />
-180-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\intel\.gradle\caches\transforms-4\06afc51d4c732095d1f7af57feb29a81\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-181
-182        <provider
-182-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-183            android:name="androidx.startup.InitializationProvider"
-183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-184            android:authorities="com.cyptocurrency.androidx-startup"
-184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-185            android:exported="false" >
-185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-186            <meta-data
-186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-187                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-188                android:value="androidx.startup" />
-188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-189            <meta-data
-189-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\intel\.gradle\caches\transforms-4\de53634973e45ba7b62012cb8e869aee\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-190                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-190-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\intel\.gradle\caches\transforms-4\de53634973e45ba7b62012cb8e869aee\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-191                android:value="androidx.startup" />
-191-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\intel\.gradle\caches\transforms-4\de53634973e45ba7b62012cb8e869aee\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-192        </provider>
-193
-194        <service
-194-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\96c0f43ba9eed4de2f1beda2d6e64897\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
-195            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-195-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\96c0f43ba9eed4de2f1beda2d6e64897\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
-196            android:exported="false" >
-196-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\96c0f43ba9eed4de2f1beda2d6e64897\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
-197            <meta-data
-197-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\96c0f43ba9eed4de2f1beda2d6e64897\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
-198                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-198-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\96c0f43ba9eed4de2f1beda2d6e64897\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
-199                android:value="cct" />
-199-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\96c0f43ba9eed4de2f1beda2d6e64897\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
-200        </service>
-201        <service
-201-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
-202            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-202-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
-203            android:exported="false"
-203-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
-204            android:permission="android.permission.BIND_JOB_SERVICE" >
-204-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
-205        </service>
-206
-207        <receiver
-207-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
-208            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-208-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
-209            android:exported="false" />
-209-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\intel\.gradle\caches\transforms-4\9c9bc225ad37a7f198794b13821bed38\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
-210
-211        <meta-data
-211-->[com.facebook.soloader:soloader:0.10.5] C:\Users\intel\.gradle\caches\transforms-4\c5277b14eec9cc4a12d0fb10c9f8e27e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
-212            android:name="com.facebook.soloader.enabled"
-212-->[com.facebook.soloader:soloader:0.10.5] C:\Users\intel\.gradle\caches\transforms-4\c5277b14eec9cc4a12d0fb10c9f8e27e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
-213            android:value="false" />
-213-->[com.facebook.soloader:soloader:0.10.5] C:\Users\intel\.gradle\caches\transforms-4\c5277b14eec9cc4a12d0fb10c9f8e27e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
-214    </application>
-215
-216</manifest>
+13-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\BiteX\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-76
+13-->[:react-native-community_netinfo] D:\React Native\CryptoCurrency\BiteX\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-73
+14    <!--
+15    This manifest file is used only by Gradle to configure debug-only capabilities
+16    for React Native Apps.
+17    -->
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:5-78
+18-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:22-75
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.cyptocurrency.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.cyptocurrency.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:5:5-24:19
+27        android:name="com.cyptocurrency.MainApplication"
+27-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:6:7-38
+28        android:allowBackup="false"
+28-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\intel\.gradle\caches\transforms-4\6621c239d1e00abea0752787fff99403\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:9:7-52
+35        android:theme="@style/AppTheme"
+35-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:11:7-38
+36        android:usesCleartextTraffic="true" >
+36-->D:\React Native\CryptoCurrency\BiteX\android\app\src\debug\AndroidManifest.xml:6:9-44
+37        <activity
+37-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:12:7-23:18
+38            android:name="com.cyptocurrency.MainActivity"
+38-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:13:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:15:9-118
+40            android:exported="true"
+40-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:18:9-32
+41            android:label="@string/app_name"
+41-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:14:9-41
+42            android:launchMode="singleTask"
+42-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:16:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:17:9-51
+44            <intent-filter>
+44-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:19:9-22:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:20:13-65
+45-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:20:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:21:13-73
+47-->D:\React Native\CryptoCurrency\BiteX\android\app\src\main\AndroidManifest.xml:21:23-70
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:19:9-21:40
+51            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+51-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:20:13-77
+52            android:exported="false" />
+52-->[com.facebook.react:react-android:0.74.3] C:\Users\intel\.gradle\caches\transforms-4\e66d8d99b1d5312de9d2d1b90139c764\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:21:13-37
+53        <activity
+53-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+54            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+54-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+55            android:excludeFromRecents="true"
+55-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+56            android:exported="false"
+56-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+58        <!--
+59            Service handling Google Sign-In user revocation. For apps that do not integrate with
+60            Google Sign-In, this service will never be started.
+61        -->
+62        <service
+62-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+63            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+63-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+64            android:exported="true"
+64-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+65            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+65-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+66            android:visibleToInstantApps="true" />
+66-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\intel\.gradle\caches\transforms-4\dfc4a7308128eb20a9a1aa919171f9ce\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\intel\.gradle\caches\transforms-4\99b3d270508affcc1cbbd84ef16eb756\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\intel\.gradle\caches\transforms-4\99b3d270508affcc1cbbd84ef16eb756\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\intel\.gradle\caches\transforms-4\99b3d270508affcc1cbbd84ef16eb756\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\intel\.gradle\caches\transforms-4\99b3d270508affcc1cbbd84ef16eb756\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\intel\.gradle\caches\transforms-4\c944f37f5aed40dae2553d5f44edb21d\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\intel\.gradle\caches\transforms-4\c944f37f5aed40dae2553d5f44edb21d\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\intel\.gradle\caches\transforms-4\c944f37f5aed40dae2553d5f44edb21d\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+79            android:authorities="com.cyptocurrency.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\intel\.gradle\caches\transforms-4\1f0c06f94521237f79abc32a5f8de33d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\intel\.gradle\caches\transforms-4\de53634973e45ba7b62012cb8e869aee\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\intel\.gradle\caches\transforms-4\de53634973e45ba7b62012cb8e869aee\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\intel\.gradle\caches\transforms-4\de53634973e45ba7b62012cb8e869aee\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+87        </provider>
+88
+89        <meta-data
+89-->[com.facebook.soloader:soloader:0.10.5] C:\Users\intel\.gradle\caches\transforms-4\c5277b14eec9cc4a12d0fb10c9f8e27e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+90            android:name="com.facebook.soloader.enabled"
+90-->[com.facebook.soloader:soloader:0.10.5] C:\Users\intel\.gradle\caches\transforms-4\c5277b14eec9cc4a12d0fb10c9f8e27e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+91            android:value="false" />
+91-->[com.facebook.soloader:soloader:0.10.5] C:\Users\intel\.gradle\caches\transforms-4\c5277b14eec9cc4a12d0fb10c9f8e27e\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+92    </application>
+93
+94</manifest>

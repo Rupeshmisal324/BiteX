@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cyptocurrency.app-mergeDebugResources-36:/values-es-rES/values-es-rES.xml",
+            "outputFile": "com.cyptocurrency.app-mergeDebugResources-34:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
                     "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\e66d8d99b1d5312de9d2d1b90139c764\\transformed\\jetified-react-android-0.74.3-debug\\res\\values-es-rES\\values-es-rES.xml",

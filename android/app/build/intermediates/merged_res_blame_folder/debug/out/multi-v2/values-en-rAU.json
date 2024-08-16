@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cyptocurrency.app-mergeDebugResources-36:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.cyptocurrency.app-mergeDebugResources-34:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\intel\\.gradle\\caches\\transforms-4\\346f569ba9d365042b456e7e69a1a638\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",
